@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(
+    to right,
+    rgb(122, 178, 178),
+    rgb(205, 232, 229)
+    );
+}
+
+.head {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(77, 134, 156);
+    margin-top: 15px;
+}
+
+.box {
+    border: solid 5px;
+    border-color: rgb(179, 200, 207);
+    border-radius: 10px;
+    max-width: 35%;
+    background-color: white;
+    margin: auto;
+    height: 13%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+
+.box h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(34, 40, 49);
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+footer #btn {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(49, 54, 63);
+    height: 45px;
+    width: 150px;
+}
+
+footer #copy {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(49, 54, 63);
+    height: 45px;
+    width: 150px;
+}
+
+#btn:hover {
+    background-color: rgb(49, 54, 63);
+    color: rgb(238, 238, 238);
+    transition:ease-out 0.5s;
+}
+
+#copy:hover {
+    background-color: rgb(49, 54, 63);
+    color: rgb(238, 238, 238);
+    transition:ease-out 0.5s;
+}
+
+#btn {
+    margin-right: 20px;
+}
+
+#copy {
+    margin-left: 20px;
+}
+
+.Deletearea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Deletearea button {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 7px;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(49, 54, 63);
+    height: 45px;
+    width: 150px;
+}
+
+#del:hover {
+    background-color: rgb(49, 54, 63);
+    color: rgb(238, 238, 238);
+    transition:ease-out 0.5s;
+}
